@@ -1,0 +1,34 @@
+prompt	expected_skill	avoid_skill
+Which Java release added pattern matching for switch?	developing-java	modernizing-java
+Upgrade this Java 17 application to Java 25.	modernizing-java	developing-java
+Review module boundaries in this service.	architecting-java	reviewing-java
+Review the finished PR for regressions and API breakage.	reviewing-java	architecting-java
+A CompletableFuture chain races during cancellation.	engineering-java-concurrency	debugging-jvm-applications
+The production JVM is frozen; start from thread dumps.	debugging-jvm-applications	engineering-java-concurrency
+JFR shows allocation pressure and long GC pauses.	tuning-java-performance	debugging-jvm-applications
+The container is OOMKilled because JVM/container memory limits disagree.	containerizing-java-services	tuning-java-performance
+Publish this artifact to a Maven repository.	publishing-java-libraries	building-java-projects
+Resolve a Gradle dependency conflict in the build.	building-java-projects	publishing-java-libraries
+Implement a plain JPA transaction and locking strategy.	persisting-java-data	building-spring-data-messaging
+Make a Spring Kafka consumer idempotent.	building-spring-data-messaging	persisting-java-data
+Add a normal Spring @ConfigurationProperties bean.	developing-spring	building-spring-web
+Design Problem Details for this REST controller.	building-spring-web	developing-spring
+Secure the Spring endpoint with JWT authorization.	securing-spring-applications	securing-java
+Audit a framework-neutral path traversal vulnerability.	securing-java	securing-spring-applications
+Write @DataJpaTest coverage.	testing-spring-applications	testing-java
+Write a pure JUnit test for a framework-neutral value object.	testing-java	testing-spring-applications
+Build a Spring AI RAG pipeline.	building-spring-ai	developing-spring
+Compare Spring Boot with Quarkus and Micronaut.	evaluating-jvm-frameworks	developing-spring
+Implement a normal Paper event listener.	developing-minecraft-plugins	supporting-minecraft-versions
+Fix modern API linkage on a 1.8 server.	supporting-minecraft-versions	developing-minecraft-plugins
+Mutate a player inventory safely on Folia.	scheduling-minecraft-folia	developing-minecraft-plugins
+Rewrite a PacketEvents movement wrapper.	engineering-minecraft-packets	developing-minecraft-plugins
+Convert messages to MiniMessage.	formatting-minecraft-text	developing-minecraft-plugins
+Implement Velocity forwarding and backend messaging.	developing-minecraft-proxies	developing-minecraft-plugins
+Write a Fabric mixin.	developing-minecraft-mods	developing-minecraft-plugins
+Test a Paper plugin on Folia and legacy servers.	testing-minecraft-plugins	testing-java
+Build an Android Compose screen.	developing-android	developing-kotlin-jvm
+Test Compose semantics and Android startup.	testing-android	testing-java
+Fix Kotlin nullability in a JVM library.	developing-kotlin-jvm	developing-java
+Add retries/timeouts across two remote services.	engineering-distributed-java	developing-java
+Add OpenTelemetry tracing and structured logs.	observing-java-services	debugging-jvm-applications

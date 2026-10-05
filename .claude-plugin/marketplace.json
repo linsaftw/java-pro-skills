@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "java-pro-skills",
+  "owner": {
+    "name": "linsaftw",
+    "url": "https://github.com/linsaftw/java-meta-skills"
+  },
+  "plugins": [
+    {
+      "name": "java-pro-skills",
+      "source": "./plugins/java-pro-skills",
+      "strict": true,
+      "description": "Professional Java/JVM skills for Java, Spring, Minecraft, Android, Kotlin, Maven/Gradle, testing, security and performance.",
+      "repository": "https://github.com/linsaftw/java-meta-skills",
+      "license": "MIT",
+      "category": "development",
+      "tags": [
+        "java",
+        "spring",
+        "minecraft",
+        "bukkit",
+        "paper",
+        "folia",
+        "android",
+        "jvm"
+      ]
+    }
+  ],
+  "description": "Token-efficient professional Java/JVM Agent Skills",
+  "version": "0.0.3"
+}

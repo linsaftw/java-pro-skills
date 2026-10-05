@@ -1,0 +1,67 @@
+skill	prompt	expected
+architecting-java	Split this Java monolith into modules without introducing network services.	activate
+architecting-java	Review package boundaries and dependency direction in this JVM application.	activate
+building-java-projects	Should this new Java library use Maven or Gradle, and how should toolchains be configured?	activate
+building-java-projects	My Gradle build has a transitive dependency conflict and shaded JAR packaging issue.	activate
+building-spring-ai	Build a Spring AI RAG flow with ChatClient, tools and a vector store.	activate
+building-spring-ai	Implement an MCP server with Spring AI and add model/tool observability.	activate
+building-spring-data-messaging	Make this Spring Kafka consumer idempotent with a transactional outbox.	activate
+building-spring-data-messaging	Fix this Spring Data JPA transaction and Redis cache consistency problem.	activate
+building-spring-web	Return RFC Problem Details from this Spring MVC controller and validate DTO input.	activate
+building-spring-web	Design a WebFlux streaming endpoint and WebClient timeout/retry policy.	activate
+containerizing-java-services	This Java service is OOMKilled in Kubernetes despite a 1 GiB container limit.	activate
+containerizing-java-services	Create a secure non-root layered container image with graceful JVM shutdown.	activate
+debugging-jvm-applications	Diagnose this NoSuchMethodError using the dependency tree and runtime classpath.	activate
+debugging-jvm-applications	The JVM hangs under load; inspect thread dumps and prove the first blocked state.	activate
+developing-android	Implement an Android 17 screen in Compose with lifecycle-safe state and permissions.	activate
+developing-android	Port this Android module to the project's AGP/API level without breaking older devices.	activate
+developing-java	Which Java version introduced records, and can I use them with --release 11?	activate
+developing-java	Implement this Java value object using the language level already configured by the build.	activate
+developing-kotlin-jvm	Fix Kotlin nullability and coroutine cancellation across a Java interop boundary.	activate
+developing-kotlin-jvm	Design a mixed Java/Kotlin JVM module without leaking platform types.	activate
+developing-minecraft-mods	Add a Fabric registry entry and client/server-safe networking packet.	activate
+developing-minecraft-mods	Fix a Fabric mixin after porting the mod to the current Minecraft generation.	activate
+developing-minecraft-plugins	Implement a Bukkit/Paper command, listener, config and permission flow.	activate
+developing-minecraft-plugins	Design lifecycle and persistence wiring for a Paper server plugin.	activate
+developing-minecraft-proxies	Implement secure Velocity-to-backend plugin messaging and player routing.	activate
+developing-minecraft-proxies	Review Bungee-style premium/auth forwarding trust boundaries.	activate
+developing-spring	Add configuration properties and lifecycle wiring to this Spring Boot service.	activate
+developing-spring	Migrate a Spring Framework 6 component to Framework 7 without guessing API changes.	activate
+engineering-distributed-java	Make this remote workflow idempotent with bounded retries and timeouts.	activate
+engineering-distributed-java	Design an outbox/saga boundary for two Java services without distributed transactions.	activate
+engineering-java-concurrency	Replace this unsafe executor usage with cancellation-aware CompletableFuture orchestration.	activate
+engineering-java-concurrency	Should this Java 25 service use virtual threads for blocking request work?	activate
+engineering-minecraft-packets	Mutate this PacketEvents wrapper correctly and preserve re-encoding semantics.	activate
+engineering-minecraft-packets	Build per-viewer client-visible entity state for an anti-cheat reach check.	activate
+evaluating-jvm-frameworks	Compare Quarkus, Micronaut and Spring Boot for this JVM service.	activate
+evaluating-jvm-frameworks	Should this application target GraalVM native image or a normal JVM deployment?	activate
+formatting-minecraft-text	Convert plugin messages to Adventure MiniMessage while keeping legacy Bukkit support.	activate
+formatting-minecraft-text	Fix item lore italics and placeholder insertion with Adventure Components.	activate
+modernizing-java	Upgrade this Java 11 service to Java 25 and audit removed/reflection-sensitive APIs.	activate
+modernizing-java	Plan a javax-to-jakarta migration with dependency and deployment compatibility gates.	activate
+observing-java-services	Add correlation IDs, structured logs, metrics and traces to this Java service.	activate
+observing-java-services	Define exception/logging boundaries so the same failure is not logged twice.	activate
+persisting-java-data	Fix this Hibernate lazy-loading/N+1 problem and transaction boundary.	activate
+persisting-java-data	Add a Flyway schema change without editing an already-applied migration.	activate
+publishing-java-libraries	Publish this Java library with sources, Javadocs, signing and stable API metadata.	activate
+publishing-java-libraries	Set up SemVer and binary compatibility checks for a public Maven artifact.	activate
+reviewing-java	Review this generated Java patch for correctness, ownership and regression risk.	activate
+reviewing-java	Audit this pull request for Java API, concurrency, security and compatibility problems.	activate
+scheduling-minecraft-folia	Schedule a player inventory mutation and a block mutation correctly on Folia.	activate
+scheduling-minecraft-folia	Fix a Folia teleport flow that returns a fake completed future.	activate
+securing-java	Audit this Java file upload endpoint for path traversal and unsafe archive extraction.	activate
+securing-java	Review cryptography, secrets and SSRF boundaries in this JVM service.	activate
+securing-spring-applications	Configure a Spring Security OAuth2 resource server with method authorization.	activate
+securing-spring-applications	Fix CSRF/CORS/session behavior in this Spring MVC application.	activate
+supporting-minecraft-versions	Fix BlockData NoClassDefFoundError when the same plugin JAR starts on 1.8.	activate
+supporting-minecraft-versions	Design material, PDC and collision adapters for one 1.8-to-current plugin codebase.	activate
+testing-android	Write Compose UI and coroutine tests without Thread.sleep.	activate
+testing-android	Add Macrobenchmark coverage for Android startup and scrolling performance.	activate
+testing-java	Turn these duplicate JUnit tests into a parameterized regression test.	activate
+testing-java	Test this concurrent Java component deterministically with latches/futures.	activate
+testing-minecraft-plugins	Prove this Paper/Folia scheduler bridge across server versions.	activate
+testing-minecraft-plugins	Add packet fixtures and integration-server coverage for this Bukkit plugin bug.	activate
+testing-spring-applications	Choose between a unit test, @DataJpaTest and full Spring context for this regression.	activate
+testing-spring-applications	Test Spring Security and WebFlux behavior with the correct framework test client.	activate
+tuning-java-performance	Use JFR evidence to explain high allocation rate and GC pauses.	activate
+tuning-java-performance	Benchmark this hot loop and separate algorithmic cost from JVM tuning.	activate

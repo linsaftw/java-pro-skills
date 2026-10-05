@@ -1,0 +1,30 @@
+{
+  "name": "java-pro-skills",
+  "version": "0.0.3",
+  "description": "Professional Java/JVM skills for Java, Spring, Minecraft, Android, Kotlin, Maven/Gradle, testing, security and performance.",
+  "author": {
+    "name": "linsaftw",
+    "url": "https://github.com/linsaftw/java-meta-skills"
+  },
+  "homepage": "https://github.com/linsaftw/java-meta-skills",
+  "repository": "https://github.com/linsaftw/java-meta-skills",
+  "license": "MIT",
+  "keywords": [
+    "java",
+    "agent-skills",
+    "claude-code",
+    "spring",
+    "spring-boot",
+    "bukkit",
+    "spigot",
+    "paper",
+    "folia",
+    "minecraft",
+    "android",
+    "kotlin",
+    "maven",
+    "gradle",
+    "packetevents",
+    "velocity"
+  ]
+}

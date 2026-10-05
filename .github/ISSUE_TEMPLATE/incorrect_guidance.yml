@@ -1,0 +1,24 @@
+name: Incorrect or stale guidance
+description: Report a factual, version, routing, or compatibility defect.
+title: "[correctness] "
+labels: [bug]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Incorrect behavior or statement
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reproduction and authoritative evidence
+      description: Include project/framework versions and official source links.
+    validations:
+      required: true

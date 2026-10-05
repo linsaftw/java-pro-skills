@@ -1,0 +1,23 @@
+name: Skill request or coverage gap
+description: Propose a missing Java/JVM domain or a routing improvement.
+title: "[skill] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Real task this should solve
+      description: Give concrete prompts/use cases, not a generic topic name.
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Why existing skills do not cover it
+    validations:
+      required: true
+  - type: input
+    id: sources
+    attributes:
+      label: Official source links
+      description: Versioned docs/Javadocs/specifications when relevant.
